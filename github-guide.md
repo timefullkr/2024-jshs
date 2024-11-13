@@ -12,7 +12,7 @@ git clone https://github.com/timefullkr/2024-jshs-projects.git
 cd 2024-jshs-projects
 
 # 3. 자신의 이메일 이름으로 작업 폴더 생성
-mkdir your.email@example.com
+md your.email@example.com
 cd your.email@example.com
 
 # 4. Git 설정 (프로젝트별 설정)
@@ -26,7 +26,7 @@ git config --local --list
 ## 2️⃣ 매일 수업 시작시
 ```bash
 # 1. 자신의 작업 폴더로 이동
-cd ./2024-jshs-projects/your.email
+cd 자신의 작업 폴더/2024-jshs-projects/your.email
 
 # 2. 최신 자료 받기
 
