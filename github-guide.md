@@ -60,8 +60,17 @@ git restore .          # 변경사항 취소
 ## 4️⃣ 수업 종료 시 (필수!)
 ```bash
 # 1. 작업 내용 저장
-git save
+git add .
+git commit -m "작업내용 설명"
 git push origin main
+
+처리 예
+(venv) PS C:\work3\2024-jshs-projects\timefullkr@naver.com\work-01> pip freeze > requirements.txt
+(venv) PS C:\work3\2024-jshs-projects\timefullkr@naver.com\work-01> git add .
+(venv) PS C:\work3\2024-jshs-projects\timefullkr@naver.com\work-01> git commit -m "수정"
+(venv) PS C:\work3\2024-jshs-projects\timefullkr@naver.com\work-01> git push origin main
+(venv) PS C:\work3\2024-jshs-projects\timefullkr@naver.com\work-01> 
+```
 
 # Windows 자격증명 삭제
 # 방법 1: CMD 명령어 사용
