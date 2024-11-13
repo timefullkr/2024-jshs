@@ -156,5 +156,5 @@ git commit -m "작업내용 설명"
 git push origin main
 
 # 종료할 때
-자격증명 삭제 필수!
+자격증명 삭제 
 ```
