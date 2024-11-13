@@ -88,6 +88,7 @@ rundll32.exe keymgr.dll,KRShowKeyMgr   # 자격증명 관리자 바로 실행
 ```
 
 ## 📁 작업 폴더 구조
+
 ```
 2024-jshs-projects/
     ├── student1@example.com/
