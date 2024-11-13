@@ -91,9 +91,10 @@ rundll32.exe keymgr.dll,KRShowKeyMgr   # 자격증명 관리자 바로 실행
 
 ```
 2024-jshs-projects/
+
     ├── student1@example.com/
-    │   ├── 과제1/
-    │   ├── 과제2/
+    │   ├── work-01/    
+    │   ├── work-02/    
     │   └── README.md
     ├── student2@example.com/
     │   ├── 과제1/
