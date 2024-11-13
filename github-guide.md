@@ -18,8 +18,6 @@ cd your.email@example.com
 # 4. Git 설정 (프로젝트별 설정)
 git config --global user.name  "본인이름"
 git config --global user.email "이메일"
-git config --global alias.save "!git add . && git commit -m 'updated'"
-git config --global alias.pull-down "pull origin main"
 
 # 5. 설정 확인
 git config --local --list
@@ -31,21 +29,32 @@ git config --local --list
 cd ./2024-jshs-projects/your.email
 
 # 2. 최신 자료 받기
-git pull-down
-# 또는
+
 git pull origin main
 ```
 
 ## 3️⃣ 작업 내용 저장하기
 ```bash
-# 간단한 저장
-git save
-git push origin main
-
-# 또는 단계별 저장
+# 전체 저장
 git add .
+
+# 특정 파일만 저장
+git add 파일이름
+
+# 특정 폴더만 저장
+git add 폴더이름/
+
+# 특정 확장자만 저장
+git add *.py           # 모든 Python 파일
+git add *.html         # 모든 HTML 파일
+
 git commit -m "작업내용 설명"
 git push origin main
+
+
+# 변경사항 취소
+git restore --staged .  # add 취소
+git restore .          # 변경사항 취소
 ```
 
 ## 4️⃣ 수업 종료 시 (필수!)
