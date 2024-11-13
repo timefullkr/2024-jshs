@@ -1,3 +1,4 @@
+
 # 실습-01(work-01) 
 ### 커서AI 열기를합니다.
 ### 메뉴>보기> 터미널 창을 엽니다.
@@ -45,7 +46,7 @@ fastapi 웹 서버를 만들어주세요
 필요한 폴더가 없는 경우 폴더 생성
 ```
 다음처럼 소스가 제안됩니다.
-```
+```python
 import os
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
@@ -116,4 +117,3 @@ https://github.com/timefullkr/2024-jshs-projects.git
 ### 실습종료
 
 # 실습-02(work-02) 
-
