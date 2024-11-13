@@ -137,10 +137,11 @@ git remote -v
 ## ⚡ 빠른 명령어 요약
 ```bash
 # 시작할 때
-git update  (또는 git pull origin main)
+git git pull origin main
 
 # 저장할 때
-git save
+git add .
+git commit -m "작업내용 설명"
 git push origin main
 
 # 종료할 때
