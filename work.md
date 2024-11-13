@@ -1,4 +1,4 @@
-# work-01 
+# 실습-01(work-01) 
 ### 커서AI 열기를합니다.
 ### 메뉴>보기> 터미널 창을 엽니다.
 #### github의 timefullkr계정의 2024-jshs-projects 저장소의 내용을 동기화(복사)합니다.
@@ -20,9 +20,9 @@ python.exe -m pip install --upgrade pip
 ```
 .\venv\Scripts\activate
 ```
-- PS C:\work\2024-jshs-projects\timefullkr@naver.com\work-01> python -m venv venv
-- PS C:\work\2024-jshs-projects\timefullkr@naver.com\work-01> .\venv\Scripts\activate
-- (venv) PS C:\work\2024-jshs-projects\timefullkr@naver.com\work-01> **최종 이렇게 나오면 성공**
+- PS C:\work\2024-jshs-projects\자신의 이메일\work-01> python -m venv venv
+- PS C:\work\2024-jshs-projects\자신의 이메일\work-01> .\venv\Scripts\activate
+- (venv) PS C:\work\2024-jshs-projects\자신의 이메일\work-01> **최종 이렇게 나오면 성공**
 
 ### wokr-01 폴더에서 app.py 빈파일을 만듭니다.
 ### ctrl + k -> 
@@ -62,6 +62,7 @@ if __name__ == "__main__":
 ```
 현재 코드에 설해야할 라이브러이 설치방법
 ```
+```
  pip install pip install fastapi jinja2 uvicorn
 ```
 
@@ -72,4 +73,10 @@ if __name__ == "__main__":
 
 ### 다음 내용들을 하나씩 AI 요청차로 코드를 추가해서 적용하고 확인 해본다
 - 처음 시작시 터미널창에 접속할 수 있는 서버ip를 표시
-- index.html  내용에 접속자의 ip와 현재 일시을 나타나게
+- index.html  내용에 접속자의 ip와 현재 서버 일시를 나타나게
+
+### GitHub  전송하기
+### 전송내용 확인 
+### 실습종료
+
+# 실습-02(work-02)
