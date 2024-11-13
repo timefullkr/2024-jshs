@@ -107,13 +107,16 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 ```
 #### GitHub 전송하기
+```
 git add .
 git commit -m "작업내용 설명"
 git push origin main
+```
 
 ### 다음 사이트로 가서 전송내용 확인 
+```
 https://github.com/timefullkr/2024-jshs-projects.git
-
+```
 ### 실습종료
 
 # 실습-02(work-02) 
