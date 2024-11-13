@@ -19,7 +19,7 @@ cd your.email@example.com
 git config --global user.name  "본인이름"
 git config --global user.email "이메일"
 git config --global alias.save "!git add . && git commit -m 'updated'"
-git config --global alias.update "pull origin main"
+git config --global alias.pull-down "pull origin main"
 
 # 5. 설정 확인
 git config --local --list
@@ -31,7 +31,7 @@ git config --local --list
 cd ./2024-jshs-projects/your.email
 
 # 2. 최신 자료 받기
-git update
+git pull-down
 # 또는
 git pull origin main
 ```
