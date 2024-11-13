@@ -4,6 +4,11 @@
 - md work-01
 - cd work-01
 ### 메뉴>보기> 터미널 창을 엽니다.
-```bash
->python.exe -m pip install --upgrade pi
+```
+python.exe -m pip install --upgrade pi
+
+# 가상환경을 만듭니다.
+python -m venv venv
+# 가상환경으로 이동합니다.
+.\venv\Scripts\activate
 ```
